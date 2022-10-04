@@ -1,0 +1,31 @@
+.main-section{
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+.card-part{
+    border-radius: 5px;
+    margin:0px;
+    border:10px solid #DDDDDD;
+    background-color: #fff;
+    padding-bottom: 10px;
+} 
+.card-title h1{
+    margin:0px;
+    color:#4C4C4C;
+    font-size:50px;
+    padding: 20px 0px 8px 0px;
+}
+.card-description p{
+    min-height:20px; 
+    overflow: hidden;
+    color:#848484;
+    margin:10px;
+    text-align: justify;
+}
+.card-cart a{
+    border-radius:0px;
+    font-size: 20px;
+}
+.card-cart{
+    padding-top: 0px;
+}

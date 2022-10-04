@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudPDF - viewer</title>
+    <style>
+      body, html {
+        height: 100%;
+        margin: 0px;
+      }
+    </style>
+  </head>
+  <body style="height: 100%">
+    <div id="viewer" style="width: 800px; height: 500px; margin: 80px auto;"></div>
+    <script type="text/javascript" src="https://cloudpdf.io/viewer.min.js?version=0.1.0-beta.11"></script>
+    <script>
+      const config = { 
+        documentId: 'eee2079d-b0b6-4267-9812-b6b9eadb9c60',
+        darkMode: true
+      };
+      CloudPDF(config, document.getElementById('viewer')).then((instance) => {
+        
+      });
+    </script>
+  </body>
+</html>
